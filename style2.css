@@ -1,0 +1,499 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #060A10;
+    padding: 0 10px 0 0;
+    color: white;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #0B101B;
+    overflow-x: hidden;
+}
+.navbar .na{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.search-nav{
+    margin-left: 120px;
+    padding: 8px 23px;
+    border-radius: 18px;
+    background-color: #142838;
+    border: none;
+    outline: none;
+    color: white;
+}
+.navbar .h1{
+    padding-right: 280px;
+    color: #14B8A6;
+}
+.fa-gamepad{
+    padding-right: 20px;
+    font-size: xx-large;
+    color: #14B8A6;
+}
+.fa-user{
+    padding-left: 35px;
+    padding-right: 0px;
+}
+.fa-cart-shopping{
+    padding-left: 35px;
+}
+.navbar a:hover{
+    color: #2DD4BF;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+
+}
+.first-section{
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section img{
+    width: 40%;
+    border-radius: 20px;
+
+}
+.trend{
+    border-radius: 20px;
+    padding: 6px 20px;
+    color: #28B487;
+    background-color:#0B101B ;
+    border-color: #28B487;
+    border: 0.9px solid;
+
+}
+.fh1{
+    font-size: xx-large;
+    font-size: 64px;              
+    font-weight: 900;
+    margin-top: 20px;
+}
+.playnowbtn{
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #28B487;
+    color: #071A14;
+    border: none;
+    margin-right: 20px;
+    font-size: xx-large;
+
+}
+.viewbtn{
+    padding: 9px 25px;
+    border-radius:  20px;
+    background-color: #0B101B;
+    border-color: #28B487;
+    color: #28B487;
+    font-size: xx-large;
+    border: 1px solid;
+
+}
+.first-section div p{
+    font-size: xx-large;
+}
+.viewbtn:hover{
+    border-color: #38D9A9;
+}
+.playnowbtn:hover{
+    background-color: #38D9A9;
+}
+.sacond-section{
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    padding-left: 500px;
+
+}
+.agbtn{
+    background-color: #28B487;
+    color: #061510;
+    padding: 15px 45px;
+    border-radius: 20px;
+    border-width: 1.5px solid;
+    border: 1.5px solid #38D9A9;
+    font-size: larger;
+}
+.abtn{
+    background-color: #18202C;
+    color: #E2E8F0;
+    padding: 15px 35px;
+    border-radius: 20px;
+    border-width: 1.5px solid;
+    border: 1.5px solid #2E3A4D;
+    font-size: larger;
+
+}
+.rbgbtn{
+    background-color: #18202C;
+    color: #E2E8F0;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border-width: 1.5px solid;
+    border: 1.5px solid #2E3A4D;
+    font-size: larger;
+
+}
+.advnbtn{
+    background-color: #18202C;
+    color: #E2E8F0;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-width: 1.5px solid;
+    border: 1.5px solid #2E3A4D;
+    font-size: larger;
+
+}
+.sacond-section button:hover{
+    background-color: #28B487;
+    color: #061510;
+    border-radius: 20px;
+    border-width: 1.5px solid;
+    border: 1.5px solid #38D9A9;
+}
+.third-section{
+    padding: 30px 120px;
+    align-items: center;
+}
+
+.cards-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 23%;
+    min-width: 220px;
+    border: 2px solid #222D3D;
+    background-color: #121824;
+    border-radius: 20px;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+}
+.card div h1{
+    color: white;
+    padding-left: 20px;
+    font-size: xx-large;
+    margin: 10px 0;
+}
+.card div p{
+    color: white;
+    padding-left:20px;
+}
+.down-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardimg{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.buybtn{     
+  padding: 8px 18px;
+  color: #061510;
+  background-color: #28B487;
+  border-radius: 8px;
+  border: 1px solid;
+  margin-right: 20px ;
+}
+.card:hover{
+    background: linear-gradient(180deg, #131c28 0%, #102a2a 100%);
+    border: 1.5px solid #48e5b5;
+}
+.fourth-section{
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourth-section img{
+    width: 40%;
+    border-radius: 20px;
+}
+.sbtn4{
+   border-radius: 20px;
+    padding: 6px 20px;
+    color: #28B487;
+    background-color:#0B101B ;
+    border-color: #28B487;
+    border: 0.9px solid;
+}
+.fourth-section h1{
+    color: white;
+    font-size: xx-large;
+    font-size: 64px;              
+    font-weight: 900;
+    margin-top: 20px;
+}
+.fourth-section p{
+    color: white;
+    font-size: xx-large;
+}
+.claim{
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #28B487;
+    color: #071A14;
+    border: none;
+    margin-right: 20px;
+    font-size: xx-large;
+}
+.claim:hover{
+background-color: #38D9A9;
+}
+.fifth-section{
+    padding: 30px 120px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+
+}
+.minic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    border: 2px solid #222D3D;
+    background-color: #121824;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.minic h2{
+    color: white;
+    margin-bottom: 5px;
+    
+}
+.fa-crosshairs{
+    color: white;
+    font-size: xx-large;
+    font-size: 100px;
+    
+}
+.minic p{
+    color: white;
+}
+.fa-truck-monster{
+    color: white;
+    font-size: xx-large;
+    font-size: 100px;
+}
+.fa-chess{
+    color: white;
+    font-size: xx-large;
+    font-size: 100px;
+}
+.about{
+    padding: 30px 120px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+.about1{
+    color: white;
+    
+}
+.about2{
+    display: unset;
+}
+.about a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.about2 h3{
+    color: white;
+    font-size: larger;
+}
+
+.about3 h3{
+    color: white;
+    font-size: larger;
+}
+.about4 h3{
+   color: white; 
+}
+.about4 input{
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #142838;
+    border: none;
+    color: white;
+}
+.about4 button{
+    background-color: #28B487;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border:none;
+    position: relative;
+    right:35px;
+}
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES (ALL DEVICES COMPATIBILITY)
+   ========================================================= */
+
+/* 1. Smaller Laptops & Large Tablets (max-width: 1400px) */
+@media (max-width: 1400px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 10px 30px;
+    }
+    .navbar .h1 {
+        padding-right: 40px;
+    }
+    .search-nav {
+        margin-left: 30px;
+    }
+    .sacond-section {
+        padding: 30px 50px;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    .first-section,
+    .third-section,
+    .fourth-section,
+    .fifth-section,
+    .about {
+        padding: 30px 50px;
+    }
+}
+
+/* 2. Tablets & iPads (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .navbar {
+        justify-content: center;
+        gap: 10px;
+        padding: 15px 20px;
+    }
+    .navbar .h1 {
+        padding-right: 15px;
+    }
+    .navbar .na {
+        padding-left: 15px;
+    }
+    .search-nav {
+        margin-left: 15px;
+    }
+    .first-section,
+    .fourth-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 30px 30px;
+    }
+    .first-section img,
+    .fourth-section img {
+        width: 80%;
+    }
+    .cards-row {
+        flex-wrap: wrap;
+    }
+    .card {
+        flex: 1 1 calc(50% - 20px); /* 2 cards per row on tablets */
+        max-width: calc(50% - 10px);
+    }
+    .fifth-section {
+        grid-template-columns: repeat(2, 1fr); /* 2 genre boxes per row on tablets */
+        padding: 30px 30px;
+    }
+    .about {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 30px 30px;
+    }
+}
+
+/* 3. Mobile Phones (max-width: 650px) */
+@media (max-width: 650px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+        gap: 12px;
+    }
+    .navbar .h1 {
+        padding-right: 0;
+    }
+    .navbar .na {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .search-nav {
+        margin-left: 0;
+        width: 85%;
+    }
+    .fa-cart-shopping,
+    .fa-user {
+        padding-left: 15px;
+    }
+    .first-section,
+    .sacond-section,
+    .third-section,
+    .fourth-section,
+    .fifth-section,
+    .about {
+        padding: 25px 18px;
+    }
+    .fh1,
+    .fourth-section h1 {
+        font-size: 38px;
+    }
+    .first-section div p,
+    .fourth-section p {
+        font-size: 18px;
+    }
+    .playnowbtn,
+    .viewbtn,
+    .claim {
+        font-size: 18px;
+        margin: 8px 5px;
+    }
+    .first-section img,
+    .fourth-section img {
+        width: 100%;
+    }
+    .sacond-section {
+        gap: 12px;
+    }
+    .agbtn, .abtn, .rbgbtn, .advnbtn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .card {
+        flex: 1 1 100%; /* 1 full-width card per row on phones */
+        max-width: 100%;
+    }
+    .fifth-section {
+        grid-template-columns: 1fr; /* 1 genre box per row on phones */
+    }
+    .about {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    .about4 {
+        width: 100%;
+    }
+    .about4 input {
+        width: 60%;
+    }
+}
